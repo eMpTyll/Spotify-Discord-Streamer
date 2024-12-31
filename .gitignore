@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+config/config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+spotify-auth-code.txt
+spotify-refresh-token.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db 
