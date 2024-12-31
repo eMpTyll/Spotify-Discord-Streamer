@@ -39,8 +39,8 @@ This Discord bot integrates with Spotify to stream your music directly to Discor
 ## Installation
 
 1. Clone this repository:
-bash
-git clone https://github.com/your-username/discord-music-bot.git
+`bash
+git clone https://github.com/your-username/discord-music-bot.git`
 cd discord-music-bot
 
 
