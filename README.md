@@ -39,16 +39,17 @@ This Discord bot integrates with Spotify to stream your music directly to Discor
 ## Installation
 
 1. Clone this repository:
-`bash
+```bash
 git clone https://github.com/your-username/discord-music-bot.git`
-cd discord-music-bot
 
+cd discord-music-bot
+```
 
 2. Install dependencies:
 
-bash
+```bash
 npm install
-
+```
 
 3. Install VB-Cable Virtual Audio Device:
    - Download from [VB-Cable Website](https://vb-audio.com/Cable/)
@@ -65,14 +66,14 @@ npm install
 
 1. Start spotify authentication:
 
-bash
+```bash
 node spotify-auth-server.js
-
+```
 2. Start the bot:
 
-bash
+```bash
 node MusicBot_no_delay_command.js
-
+```
 3. Play music from Spotify:
 
 Open your Spotify app and play any song. The bot will stream the song to your Discord voice channel.
